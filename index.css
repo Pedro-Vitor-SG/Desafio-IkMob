@@ -365,6 +365,7 @@ body {
   color: rgba(128, 128, 128, 0.15);
   font-size: 7.5rem;
   margin-top: 40px;
+  
 }
 .container_reviews span {
   color: #888;
@@ -598,14 +599,13 @@ footer .payment div i {
   }
   .container_reviews h3 {
     font-size: 3.5rem;
-    width: 50%;
+    width: 100%;
   }
   .container_reviews span {
     font-size: 1.7rem;
     margin-top: -90px;
   }
   .container_reviews p {
-    color: #888;
     font-weight: 300;
     font-size: 0.9rem;
     width: 70%;
@@ -639,15 +639,17 @@ footer .payment div i {
   footer .some_info div {
     font-size: 0.8rem;
     font-weight: 300;
-    width: 60%;
+    width: 100%;
     text-align: center;
   }
   footer .some_info div.address {
     font-weight: 400;
     margin-top: 10px;
-    width: 50%;
+    width: 100%;
   }
+  footer .some_info div.address a {
 
+  }
   footer .some_info div.address p {
     display: flex;
     justify-content: center;
