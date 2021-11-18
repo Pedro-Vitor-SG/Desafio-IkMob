@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Montserrat";
+}
+body {
+  overflow-x: hidden;
+}
+.header {
+  background-color: #a11217;
+}
+.header .line_top {
+  display: flex;
+  justify-content: space-between;
+}
+.header .line_top .line {
+  width: 53vw;
+  height: 10px;
+  background-color: #db9600;
+  border-radius: 0px 0px 20px 0px;
+}
+.header .line_top .imgs div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.header .line_top .imgs div img {
+  opacity: 0.6;
+}
+.header .line_top .imgs div img.c1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 135px;
+  bottom: 40px;
+}
+.header .line_top .imgs div img.c2 {
+  width: 60px;
+  height: 55px;
+  position: relative;
+  right: 82px;
+  bottom: 20px;
+}
+.header .line_top .imgs div img.c3 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+.header .line_top .imgs div img.c4 {
+  width: 45px;
+  position: relative;
+  right: 95px;
+  bottom: 50px;
+}
+.header .line_top .imgs div img.c5 {
+  width: 80px;
+  position: relative;
+  right: 60px;
+  bottom: 50px;
+}
+.header .line_top .imgs div img.c6 {
+  width: 22px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+
+.container_phone_number {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: -40px;
+}
+.container_phone_number a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(158, 18, 23);
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+}
+.container_phone_number a:hover {
+  background-color: rgb(180, 18, 23);
+  transition: 0.2s;
+}
+.container_phone_number a p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container_phone_number img {
+  height: 45px;
+}
+
+.container_callToAction {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+.container_callToAction .free_delivery {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_callToAction .free_delivery h3 {
+  font-size: 5rem;
+  margin-left: -50px;
+}
+.container_callToAction .free_delivery h3.h3 {
+  font-size: 2.6rem;
+  background-color: white;
+  color: #db9600;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: -5px;
+  padding: 0.7rem 4rem 0.7rem 2rem;
+}
+.container_callToAction .free_delivery .delivery_time {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin: 15px 70px 90px 0px;
+}
+.container_callToAction .free_delivery .delivery_time div {
+  background-color: #db9600;
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.container_callToAction .free_delivery .delivery_time p {
+  margin-left: 5px;
+}
+
+.container_callToAction .free_delivery a {
+  background-color: #25d366;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 48%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.container_callToAction .free_delivery a i {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.container_callToAction .container_medico {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.container_callToAction .container_medico .medico {
+  display: flex;
+  align-items: center;
+}
+.container_callToAction .container_medico .medico .c7 {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  bottom: 120px;
+  left: 200px;
+}
+
+.container_callToAction .container_medico img.medico_img {
+  height: 570px;
+  width: 399px;
+  z-index: 1;
+}
+
+.container_callToAction .container_medico div.cruzes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container_callToAction .container_medico div.cruzes .c8 {
+  opacity: 0.6;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 90px;
+  right: 50px;
+}
+.container_callToAction .container_medico div.cruzes .c10 {
+  width: 30px;
+  height: 30px;
+  opacity: 0.6;
+  position: relative;
+  bottom: 70px;
+}
+.container_callToAction .container_medico div.cruzes .c9 {
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+  opacity: 0.6;
+}
+
+.container_attention {
+  background-color: #4d4d4d;
+  color: white;
+  width: 65%;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  padding: 2.5rem;
+  border-radius: 10px;
+
+  position: relative;
+  bottom: 40px;
+}
+
+.container_promotion_products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container_promotion_products div {
+  width: 21%;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container_promotion_products .product img {
+  width: 150px;
+  height: 150px;
+}
+
+.container_promotion_products .product p {
+  font-weight: 700;
+  width: 100%;
+}
+.container_promotion_products .first_product p {
+  width: 100%;
+}
+.container_promotion_products .product .name_product {
+  margin-bottom: 50px;
+}
+
+.container_promotion_products .product span {
+  display: block;
+}
+
+.container_promotion_products .product .original_price {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: #b0b0b0;
+}
+
+.container_promotion_products .product .promotion_price {
+  font-size: 1.5rem;
+  color: #d68500;
+}
+
+.container_form {
+  background-color: #a11217;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.container_form .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  width: 50%;
+}
+.container_form .form h2 {
+  font-weight: 400;
+  font-size: 1.9rem;
+  width: 80%;
+  text-align: center;
+}
+.container_form .form h2 span {
+  color: #25d366;
+  font-weight: 700;
+}
+.container_form .form form {
+  margin-top: 70px;
+  display: flex;
+  width: 40%;
+
+  flex-direction: column;
+}
+.container_form .form form div {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.container_form .form form div input {
+  padding: 0.8rem 6rem 0.8rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.container_form .form form div input::placeholder {
+  opacity: 0.5;
+}
+.container_form .form form label.block {
+  display: block;
+}
+.container_form .form form label.inline {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.container_form .form form button {
+  background-color: #25d366;
+  border: none;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.container_form .form form button a {
+  text-decoration: none;
+  color: #ffff;
+}
+.container_form .container_woman {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.container_form .container_woman .c12 {
+  width: 120px;
+  position: relative;
+  top: 160px;
+  left: 90px;
+}
+.container_form .container_woman .c13 {
+  width: 100px;
+  position: relative;
+  top: 20px;
+  right: 80px;
+}
+.container_form .container_woman .woman_img {
+  height: 721px;
+  width: 474px;
+  margin-top: 70px;
+}
+
+.container_reviews {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_reviews h3 {
+  color: rgba(128, 128, 128, 0.15);
+  font-size: 7.5rem;
+  margin-top: 40px;
+}
+.container_reviews span {
+  color: #888;
+  font-size: 3rem;
+  margin-top: -60px;
+}
+.container_reviews p {
+  color: #888;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.container_reviews .line {
+  border-top: 2px solid #db9600;
+  margin-bottom: 40px;
+  width: 3%;
+}
+.container_reviews div {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container_reviews div img.hidden {
+  display: none;
+}
+
+.row {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-top: 5px solid #a11217;
+}
+
+footer {
+  color: #a11217;
+}
+
+footer .some_info {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+footer .some_info div {
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 30%;
+}
+footer .some_info div.address {
+  font-weight: 400;
+  margin-top: 10px;
+  width: 40%;
+}
+
+footer .some_info div img {
+  width: 208px;
+  height: 43px;
+}
+footer .some_info div p {
+  margin: 25px 0px;
+}
+footer .some_info div.address a {
+  background-color: #a11217;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+footer .some_info div.address p {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+footer .some_info div.address i {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+footer .some_info div div.row {
+  width: 100%;
+  margin: 0;
+  height: 1px;
+  background-color: #a11217;
+  border: 0px;
+}
+
+footer .payment {
+  margin: auto;
+  width: 82%;
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+footer .payment p {
+  margin-bottom: 20px;
+}
+
+footer .payment div i {
+  font-size: 40px;
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  .header .line_top .imgs {
+    display: none;
+  }
+
+  .header .line_top .line {
+    width: 60vw;
+    height: 15px;
+    background-color: #db9600;
+    border-radius: 0px 0px 20px 0px;
+  }
+  .container_phone_number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .container_phone_number a {
+    margin-bottom: 45px;
+  }
+  .container_callToAction {
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+  }
+  .container_callToAction .free_delivery {
+    margin-top: 60px;
+  }
+  .container_callToAction .free_delivery h3 {
+    font-size: 3rem;
+  }
+  .container_callToAction .free_delivery h3.h3 {
+    font-size: 1.6rem;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+  }
+  .container_callToAction .free_delivery .delivery_time {
+    display: flex;
+    font-size: 1.1rem;
+    margin: 20px 0px 70px 0px;
+    width: 60%;
+    text-align: center;
+  }
+  .container_callToAction .free_delivery .delivery_time div {
+    display: none;
+  }
+  .container_callToAction .free_delivery .delivery_time p {
+    margin-left: 5px;
+  }
+  .container_callToAction .container_medico {
+    margin-top: 80px;
+  }
+  .container_callToAction .container_medico .medico {
+    justify-content: center;
+  }
+  .container_callToAction .container_medico .medico .c7 {
+    display: none;
+  }
+  .container_callToAction .container_medico img.medico_img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .container_callToAction .container_medico div.cruzes {
+    display: none;
+  }
+  .container_attention {
+    width: 80%;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 20px;
+    bottom: 0px;
+  }
+  .container_promotion_products {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_promotion_products div {
+    width: 45%;
+    border-bottom: 1px solid #d68500;
+  }
+  .container_promotion_products div.eighth_product {
+    border: none;
+  }
+  .container_promotion_products .product .name_product {
+    margin-bottom: 20px;
+  }
+  .container_promotion_products .product .promotion_price {
+    margin-bottom: 30px;
+  }
+
+  .container_form .form {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .container_form .form h2 {
+    width: 80%;
+  }
+  .container_form .form form {
+    margin-top: 30px;
+    width: 60%;
+  }
+  .container_form .form form div input {
+    width: 100%;
+  }
+  .container_form .form form div.flex {
+    display: flex;
+  }
+  .container_form .form form button {
+    margin-bottom: 150px;
+  }
+  .container_form .container_woman .c12 {
+    display: none;
+  }
+  .container_form .container_woman .c13 {
+    display: none;
+  }
+  .container_form .container_woman .woman_img {
+    display: none;
+  }
+  .container_reviews h3 {
+    font-size: 3.5rem;
+    width: 50%;
+  }
+  .container_reviews span {
+    font-size: 1.7rem;
+    margin-top: -90px;
+  }
+  .container_reviews p {
+    color: #888;
+    font-weight: 300;
+    font-size: 0.9rem;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .container_reviews .line {
+    border-top: 2px solid #db9600;
+    margin-bottom: 70px;
+    width: 10%;
+  }
+  .container_reviews div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container_reviews div img {
+    margin-bottom: 50px;
+  }
+  .container_reviews div img.hidden {
+    display: inline;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .some_info {
+    width: 100%;
+    flex-direction: column;
+  }
+  footer .some_info div {
+    font-size: 0.8rem;
+    font-weight: 300;
+    width: 60%;
+    text-align: center;
+  }
+  footer .some_info div.address {
+    font-weight: 400;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  footer .some_info div.address p {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 30px 0px;
+    width: 100%;
+  }
+  footer .some_info div div.row {
+    margin-bottom: 50px;
+  }
+  footer .payment {
+    text-align: center;
+  }
+}
